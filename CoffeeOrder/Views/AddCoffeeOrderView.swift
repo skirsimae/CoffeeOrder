@@ -45,6 +45,7 @@ struct AddCoffeeOrderView: View {
                     .background(.green)
                     .cornerRadius(10)
             }
+            .navigationTitle("Add Order")
         }
     }
 }
