@@ -18,6 +18,7 @@
 		CDE64136297991C300807324 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE64135297991C300807324 /* OrderViewModel.swift */; };
 		CDE641392979996000807324 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE641382979996000807324 /* OrderListView.swift */; };
 		CDFC7ADA297A9F60007E3D49 /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC7AD9297A9F60007E3D49 /* CreateOrderResponse.swift */; };
+		CDFC7ADC297AA057007E3D49 /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC7ADB297AA057007E3D49 /* AddCoffeeOrderViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		CDE64135297991C300807324 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 		CDE641382979996000807324 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 		CDFC7AD9297A9F60007E3D49 /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
+		CDFC7ADB297AA057007E3D49 /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				CDE641332979919100807324 /* OrderListViewModel.swift */,
 				CDE64135297991C300807324 /* OrderViewModel.swift */,
+				CDFC7ADB297AA057007E3D49 /* AddCoffeeOrderViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				CDE6413129798FE300807324 /* WebService.swift in Sources */,
 				CDE64136297991C300807324 /* OrderViewModel.swift in Sources */,
 				CDE6412C29798E3400807324 /* Coffee.swift in Sources */,
+				CDFC7ADC297AA057007E3D49 /* AddCoffeeOrderViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
