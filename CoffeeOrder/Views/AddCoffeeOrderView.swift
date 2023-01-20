@@ -35,6 +35,15 @@ struct AddCoffeeOrderView: View {
                         }.pickerStyle(.segmented)
                     }
                 }
+                
+                HStack {
+                    Button("Place Order") {
+                        
+                    }
+                }.padding(EdgeInsets(top: 12, leading: 100, bottom: 12, trailing: 100))
+                    .foregroundColor(.white)
+                    .background(.green)
+                    .cornerRadius(10)
             }
         }
     }
