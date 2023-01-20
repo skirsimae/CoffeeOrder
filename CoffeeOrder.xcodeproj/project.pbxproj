@@ -17,6 +17,7 @@
 		CDE641342979919100807324 /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE641332979919100807324 /* OrderListViewModel.swift */; };
 		CDE64136297991C300807324 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE64135297991C300807324 /* OrderViewModel.swift */; };
 		CDE641392979996000807324 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE641382979996000807324 /* OrderListView.swift */; };
+		CDFC7ADA297A9F60007E3D49 /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC7AD9297A9F60007E3D49 /* CreateOrderResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		CDE641332979919100807324 /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
 		CDE64135297991C300807324 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 		CDE641382979996000807324 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		CDFC7AD9297A9F60007E3D49 /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			children = (
 				CDE6412B29798E3400807324 /* Coffee.swift */,
 				CDE6412D29798F1900807324 /* Order.swift */,
+				CDFC7AD9297A9F60007E3D49 /* CreateOrderResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			files = (
 				CDE6411F29798CCF00807324 /* ContentView.swift in Sources */,
 				CDE641392979996000807324 /* OrderListView.swift in Sources */,
+				CDFC7ADA297A9F60007E3D49 /* CreateOrderResponse.swift in Sources */,
 				CDE6411D29798CCF00807324 /* CoffeeOrderApp.swift in Sources */,
 				CDE6412E29798F1900807324 /* Order.swift in Sources */,
 				CDE641342979919100807324 /* OrderListViewModel.swift in Sources */,
