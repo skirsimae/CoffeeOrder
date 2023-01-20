@@ -26,6 +26,14 @@ struct AddCoffeeOrderView: View {
                             CoffeeCellView(coffee: coffee, selection: self.$addCoffeeOrderVM.coffeeName)
                         }
                     }
+                    
+                    Section(header: Text("SELECT COFFEE").font(.body), footer: Text("Total")) {
+                        Picker("", selection: self.$addCoffeeOrderVM.size) {
+                            Text("Small").tag("Small")
+                            Text("Medium").tag("Medium")
+                            Text("Large").tag("Large")
+                        }.pickerStyle(.segmented)
+                    }
                 }
             }
         }
