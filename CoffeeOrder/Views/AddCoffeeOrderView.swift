@@ -10,7 +10,7 @@ import SwiftUI
 struct AddCoffeeOrderView: View {
     @Binding var isPresented: Bool
     
-    @ObservedObject private var addCoffeeOrderVM = AddCoffeeOrderViewModel()
+    @StateObject private var addCoffeeOrderVM = AddCoffeeOrderViewModel()
     
     var body: some View {
         NavigationView {

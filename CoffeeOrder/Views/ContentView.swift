@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject private var orderListVM = OrderListViewModel()
+    @StateObject private var orderListVM = OrderListViewModel()
     
     @State private var showModal: Bool = false
     
